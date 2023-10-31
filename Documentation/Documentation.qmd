@@ -1,0 +1,12 @@
+---
+title: "Computing eBMS Abundance Indices"
+---
+
+## eBMS and abundance indices
+
+The European Butterfly Monitoring Schemes (eBMS) collate monitoring data recorded by National butterfly monitoring schemes that are collected by a network of professionals and volunteers recording butterfly abundance along transects, several times over the flight season (period when adults are on the wings). While BMS protocols are comparable, the frequency of visits and the number of missing visits make it challenging to estimate an abundance index that is robust to these sampling variations across sites and years and can be compared across schemes and regions.
+
+The challenge of estimating butterfly abundance arises from the seasonal phenology and the associated variation in the number of active butterflies that can be observed and reported across the monitoring season. The seasonal pattern implies that the number of butterflies detected and counted is not independent of the time in the season at which the monitoring was done. Because the time series of butterfly counts can have missing data (weeks with missing counts), the abundance profiles will be incomplete and vary across sites. To calculate robust abundance indices across sites, years and species, we need to account for seasonal variation in counts and timing of missing data.
+
+To account for the temporal change in flying butterfly abundance across the season, we can estimate the phenology of the species within a specific region and use this information to predict expected counts across the calendar and input estimated values where the butterfly counts are missing. This method allows us to complete the annual time series and correct for missing butterfly counts/visits across seasons. From the augmented time series, we can compute abundance indices that are comparable across sites and over time and enable robust estimates of trends in butterfly abundance.  
+
